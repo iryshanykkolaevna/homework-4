@@ -340,16 +340,16 @@ width: calc((100% - 48px) / 3);
   color: #f4f4fd;
   max-width: 264px;
 }
-.social{
+.footer-social{
 width: 40px;
 height: 40px;
 }
-.social-list{
+.footer-social-list{
 display: flex;
 gap: 16px;
 
 }
-.social-text{
+.footer-social-text{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -358,7 +358,7 @@ color:#FFFFFF ;
 margin-bottom: 16px;
 
 }
-.social-icons{
+.footer-social-icons{
   width: 24px;
   height: 24px;
   fill: #f4f4fd;
