@@ -291,7 +291,7 @@ list-style: none;
 .team-icons-list:focus{
 background-color: #404bbf;
 }
-.team-icons-ah{
+.personal-linc{
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
@@ -300,10 +300,10 @@ background-color: #404bbf;
   align-items: center;
   justify-content: center;
 }
-.team-icons-ah:hover{
+.personal-linc:hover{
   background-color: #404bbf;
 }
-.team-icons-ah:focus {
+.personal-linc:focus {
   background-color: #404bbf;
 }
 .svg-icons{
