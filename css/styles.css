@@ -131,6 +131,10 @@ header .container{
 .hero-section {
   padding: 188px 0;
 background-color:#2e2f42;
+background-image: url(../images/people-office\ 1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 
 .hero-title {
@@ -173,6 +177,17 @@ padding: 120px 0
 }
 .advantage-item{
   flex-basis: calc((100% - 3 * 24px) / 4)
+}
+.advantage-icons{
+  width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    background: var(--CLOUD, #F4F4FD);
 }
 .advantage-title{
   line-height: 1.2;
@@ -321,4 +336,16 @@ width: calc((100% - 48px) / 3);
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+.social{
+  color: var(--WHITE, #FFF);
+  
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
 }
