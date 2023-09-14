@@ -291,6 +291,21 @@ list-style: none;
 .team-icons-list:focus{
 background-color: #404bbf;
 }
+.team-icons-ah{
+  width: 100px;
+  height: 100px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-icons-ah:hover{
+  background-color: #404bbf;
+}
+.team-icons-ah:focus {
+  background-color: #404bbf;
+}
 .svg-icons{
   fill: #f4f4fd;
   width: 16px;
